@@ -1,4 +1,4 @@
-function selection_sort (array) {
+function selectionSort (array) {
     const sortedArray = Object.assign([], array)
 
     for (let i = 0; i < sortedArray.length; i++) {
@@ -16,7 +16,7 @@ function selection_sort (array) {
 
 const array = [3, 2, 9, 7, 24, 11]
 
-const sortedArray = selection_sort(array)
+const sortedArray = selectionSort(array)
 
 console.log('array', array)
 console.log('sortedArray', sortedArray)
